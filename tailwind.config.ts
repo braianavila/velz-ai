@@ -18,10 +18,6 @@ export default {
 			}
 		},
 		extend: {
-			fontFamily: {
-				'sans': ['Roboto', 'system-ui', 'sans-serif'],
-				'display': ['Orbitron', 'system-ui', 'sans-serif'],
-			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
@@ -56,10 +52,6 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
-				velz: {
-					light: 'hsl(var(--velz-light))',
-					dark: 'hsl(var(--velz-dark))',
-				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
@@ -75,18 +67,6 @@ export default {
 				lg: 'var(--radius)',
 				md: 'calc(var(--radius) - 2px)',
 				sm: 'calc(var(--radius) - 4px)'
-			},
-			backgroundImage: {
-				'gradient-primary': 'var(--gradient-primary)',
-				'gradient-dark': 'var(--gradient-dark)',
-				'gradient-hero': 'var(--gradient-hero)',
-			},
-			boxShadow: {
-				'velz': 'var(--shadow-velz)',
-				'glow': 'var(--shadow-glow)',
-			},
-			transitionTimingFunction: {
-				'smooth': 'cubic-bezier(0.4, 0, 0.2, 1)',
 			},
 			keyframes: {
 				'accordion-down': {
